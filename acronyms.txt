@@ -7,4 +7,7 @@ LIFO - Last In First Out
 TDD - Test Driven Development
 SaaS - Software as a Service
 PaaS - Platform as a Service
-IaaS - Infrastructure as a Service
+IaaS - Infrastructure as a ServiceIDF - Integrated Data Foundation
+
+BPPSL - Booking PNR Passenger Segment Leg
+BPPSL - Booking PNR Passenger Segment Leg
