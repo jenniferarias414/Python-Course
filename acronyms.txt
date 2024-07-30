@@ -9,3 +9,8 @@ SaaS - Software as a Service
 PaaS - Platform as a Service
 IaaS - Infrastructure as a Service
 IDF - Integrated Data Foundation
+PNR - Passenger Name Record
+BPPSL - Booking PNR Passenger Segment Leg
+CDW - Customer Data Warehouse
+sPNR - Super Passenger Name Record
+CDW - Customer Data Warehouse
