@@ -14,3 +14,4 @@ BPPSL - Booking PNR Passenger Segment Leg
 CDW - Customer Data Warehouse
 sPNR - Super Passenger Name Record
 CDW - Customer Data Warehouse
+DWCP - Data Warehouse Common Platform
