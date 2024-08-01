@@ -108,4 +108,5 @@ role2 = AriasFamily("India", 11, "daughter", 10)
 role3 = AriasFamily("Corbin", 9, "son", 5)
 
 role2.increase_salary(55)
-role3.member_info()
+role3.member_info() 
+# the instance itself (role1) is always implicitly the first parameter
