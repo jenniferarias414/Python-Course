@@ -1,4 +1,5 @@
 IDE - Integrated Development Environment
+GUI - Graphical User Interface
 OOP - Object Oriented Programming
 UX - User Experience
 JSON - JavaScript Object Notation
