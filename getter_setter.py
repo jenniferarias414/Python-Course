@@ -55,10 +55,31 @@ print(employee1.salary)
 def salary(self):
     return self._salary
 
+employee1.salary 
+#don't need to invoke the function, since this method is now a property
+
 @salary.setter
 def salary(self, salary):
     if salary < 1000:
         raise ValueError('Minimum wage is $1000')
     self._salary = salary
 
+    # decorator is prepended with the @ and is placed above the function's definition
     # then you change the code in __init__ fxn back to self.salary = salary since you're not using custom setter anymore
+
+
+
+@property
+def annual_salary(self):
+    return self.salary * 12
+
+# computed property
+
+@property
+def annual_salary(self):
+    if self._annual_salary is None:
+        self._annual_salary = self.salary * 12
+    return self._annual_salary
+
+# in the __init__ function, add: self._annual_salary = None
+# because we don't want to calculate the annual salary unless someone explicitly tries to access if from the specific employee instance. Calculation will only be done if the cached value inside the hidden attribute is None.
