@@ -23,6 +23,8 @@ class Developer(Employee):
     def increase_salary(self, percent, bonus=0):
         self.salary += self.salary * (percent/100)
         self.salary += bonus 
+
+# 'method overriding' = redifining the same method from the parent class inside of the child class
         
 
 employee1 = Tester("Jenny", 41, 5000)
