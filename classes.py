@@ -25,10 +25,21 @@ class Developer(Employee):
         self.salary += bonus 
 
 # 'method overriding' = redifining the same method from the parent class inside of the child class
+
+# so you don't have to write the same code twice in superclass fxn and subclass fxn...you can use super fxn
+
+class Developer(Employee):
+    def __init__(self, name, age, salary, framework):
+        super().__init__(name, age, salary)
+        self.framework = framework
+
+    def increase_salary(self, percent, bonus=0):
+        super().increase_salary(percent)
+        self.salary += bonus
         
 
 employee1 = Tester("Jenny", 41, 5000)
-employee2 = Developer("Wendy", 20, 1000)
+employee2 = Developer("Wendy", 20, 1000, "React")
 
 employee1.increase_salary(20)
 employee2.increase_salary(20, 30)
@@ -36,6 +47,9 @@ employee2.increase_salary(20, 30)
 print(employee1.salary)
 print(employee2.salary)
 employee1.run_tests()
+
+print(employee2.name)
+print(employee2.framework)
 
 
 # polymorphism ex:
