@@ -37,3 +37,12 @@ print(employee1.salary)
 print(employee2.salary)
 employee1.run_tests()
 
+
+# polymorphism ex:
+print(isinstance(employee1, Tester))
+print(isinstance(employee1, Employee))
+
+print(issubclass(Developer, Employee))
+print(issubclass(Employee, object))
+print(issubclass(Developer, object))
+
